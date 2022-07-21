@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kaique.gsilva9/Documents/MyBike/app/src/main/res/layout/acessorios_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/MyBike/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/MyBike/app/src/main/res/layout/catalogo_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/MyBike/app/src/main/res/layout/menu_principal_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kaique.gsilva9/Documents/MyBike/app/src/main/res/layout/modelo_bike.xml" value="0.33" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/MyBike/app/src/main/res/layout/reservas_layout.xml" value="0.27291666666666664" />
       </map>
     </option>

@@ -6,8 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import java.util.List;
+
 public class CatalogoActivity extends AppCompatActivity {
     RecyclerView idRecCatalogo;
+    List<Bike> listabikes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,17 +19,16 @@ public class CatalogoActivity extends AppCompatActivity {
 
         idRecCatalogo = findViewById(R.id.idRecCatalogo);
 
-        //Montagem do layout que será utilizado na lista
+        //Instanciar a classe adaptadora
 
-        idRecCatalogo.setLayoutManager(new GridLayoutManager(getApplicationContext(), 2));
+        MyAdapterBike adapterBike = new MyAdapterBike();
 
-        //Vai deixar a Lista mais eficiente
-        idRecCatalogo.hasFixedSize();
+        //Executando a montagem da lista
 
-        //Instanciar o adaptador
-        MyAdapter adapter =  new MyAdapter();
+        idRecCatalogo.setAdapter(adapterBike);
 
-        //Executar a montagem da lista com o modelo
-        idRecCatalogo.setAdapter(adapter);
+        //Lista das bicicletas
+
+
     }
 }
